@@ -31,6 +31,10 @@ const PostSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    promoted: {
+      type: Boolean,
+      default: false,
+    },
   },
   { timestamps: true }
 );
